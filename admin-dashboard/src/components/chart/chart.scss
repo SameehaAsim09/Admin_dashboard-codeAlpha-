@@ -1,0 +1,23 @@
+// .chart{
+//     flex: 5;
+//     box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+//         -webkit-box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+//         -moz-box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+// }
+
+.chart {
+    flex: 4;
+    box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 20px -3px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    color: gray;
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .chartGrid {
+        stroke: rgb(228, 225, 225);
+    }
+}
